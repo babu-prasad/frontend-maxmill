@@ -3,7 +3,7 @@ import UserList from "../components/UserList";
 
 const Users = () => {
     //const USERS=[];
-  const USERS = [{ id: "u1", name: "max-well-bro", image: "", places: 4 }];
+  const USERS = [{ id: "u1", name: "max-well-bro", image: "", places: 6 }];
   return <UserList items={USERS} />;
 };
 export default Users;
